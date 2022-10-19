@@ -1,18 +1,23 @@
 body {
     text-align: center;
+    background-color:  #5d6d7e;
+    background:  #ccd1d1 ;
+    animation: mymove 5s infinite;
+  }
+  @keyframes mymove {
+    50% {background-color:      #fdfefe;}
   }
   
   textarea {
-    width: 32%;
-    float: inline-start;
-    min-height: 210px;
+    width: 30%;
+    min-height: 240px;
     overflow: scroll;
     margin: auto;
     display: inline-block;
-    background: whitesmoke;
+    background:  #f2f4f4;
     outline: whitesmoke;
     font-family: Courier, sans-serif;
-    margin: auto;
+    margin: 5px;
     font-size: 20px;
     font-weight: bolder;
   }
@@ -20,6 +25,8 @@ body {
   iframe {
     bottom: 0;
     position: relative;
-    width: 100%;
+    width: 94%;
     height: 35em;
+    outline: whitesmoke;
+    background-color:  #f2f4f4;
   }
