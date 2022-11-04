@@ -33,6 +33,7 @@ nav{
     overflow: hidden;
     padding-inline-start: 5%;
     margin-top: 150px;
+    animation: opac 3s;
 }
 
 .Weather-inf{
@@ -41,6 +42,7 @@ nav{
     height: 70vh;
     flex-direction: column;
     justify-content: space-between;
+    animation: opac 3s;
 }
 
 .City-name{
@@ -52,6 +54,7 @@ nav{
 .Weather-temp{
     color: #5a5750;
     font-size: 100px;
+    display: flex;
 }
 
 .Weather-description{
@@ -66,7 +69,18 @@ nav{
     padding: 10px;
     width: 200px;
     border-radius: 8px;
+    font-size: 16px;
+    height: 20px;
     background: #e1d9c7;
     box-shadow: inset 2px 2px 5px #bfb8a9, inset -3px -3px 6px #fffae5;
     color: #5a5750;
+}
+
+@keyframes opac{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
