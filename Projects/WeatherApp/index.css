@@ -37,6 +37,10 @@ nav{
 
 .Weather-inf{
     padding: 50px;
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .City-name{
@@ -53,5 +57,16 @@ nav{
 .Weather-description{
     font-size: 20px;
     text-transform: capitalize;
+    color: #5a5750;
+}
+
+.city-search{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    background: #e1d9c7;
+    box-shadow: inset 2px 2px 5px #bfb8a9, inset -3px -3px 6px #fffae5;
     color: #5a5750;
 }
